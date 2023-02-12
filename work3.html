@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+    <fieldset>
+    <legend>Анкета</legend>
+    <table border="4" width="450">
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+  
+        <tr>
+          <td>Name</td>
+          <td><input/></td>
+        </tr>
+  
+        <tr>
+          <td>Sex</td>
+          <td>
+            <input
+            type="radio"
+            name="gender"/> Male
+
+            <input
+            type="radio"
+            name="gender"/> Female
+
+          </td>  
+        </tr>
+  
+        <tr>
+          <td>Eye color</td>
+          <td>
+            <select>
+                <option name ="Yellow">Yellow</option>
+                <option name ="Green">Green</option>
+                <option name ="Black">Black</option>
+            </select>
+          </td>  
+        </tr>
+
+        <tr>
+            <td>Check all thet aplly</td>
+            <td>
+                <input
+                type="checkbox"
+                name="name"/> Over 6 feet tall
+
+                <input
+                type="checkbox"
+                name="name"/> Over 200 pounds
+            </td>  
+          </tr>
+
+          <tr>
+            <td colspan="2">Describe your athletic ability:</td>  
+          </tr>
+
+          <tr>
+            <td colspan="2">
+                <textarea name="Comment"
+                placeholder="додайте Ваш коментар"
+                cols="30"
+                rows="4">
+            </textarea>
+            </td>    
+          </tr>
+
+           <br/><br/>
+
+           <tr>
+            <td align="center"colspan="2">
+                <input type="submit" value="Submit">
+            </td>    
+          </tr>
+
+
+      </table>
+    </fieldset>
+    </form>
+
+
+    </body>
+    </html>
+   
